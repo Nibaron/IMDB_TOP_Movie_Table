@@ -2,7 +2,7 @@
 
 # STEPS to Run In your system
 
-1. First clone the Repo using `git clone `
+1. First clone the Repo using `git clone https://github.com/Nibaron/IMDB_TOP_Movie_Table.git`
 2. install npm script using `npm install react-scripts --save`
 3. then `npm start` to start 
 
