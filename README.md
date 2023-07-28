@@ -1,4 +1,4 @@
-#IMDB TOP MOVIE TABLE
+# IMDB TOP MOVIE TABLE
 
 # Getting Started with Create React App
 
