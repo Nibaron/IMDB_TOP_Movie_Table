@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
 import Table from '../common/table.component';
 import Rating from './rating.component';
+import getMovies from './services/get_movies.service';
 
 class Movies extends Component {
     state = { 
-        movies: [{id:1, title:'Padma Nodir Majhi', year:1998, rating:true}]
+        movies: []
      } 
+
+    componentDidMount(){
+        const movies=getMovies();
+        this.setState({movies});
+    }
+     
     render() { 
         const columns = [
             { 
