@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Table from '../common/table.component';
 import Rating from './rating.component';
-import getMovies from './services/get_movies.service';
+import getMovies from '../services/get_movies.service';
+
 
 class Movies extends Component {
     state = { 
@@ -9,7 +10,7 @@ class Movies extends Component {
      } 
 
     componentDidMount(){
-        const movies=getMovies();
+        const movies= getMovies();
         this.setState({movies});
     }
      
