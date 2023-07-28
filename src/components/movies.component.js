@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Table from '../common/table.component';
-import Rating from './rating.component';
 import getMovies from '../services/get_movies.service';
+import Love from './love-icon.component';
 
 
 class Movies extends Component {
@@ -32,9 +32,9 @@ class Movies extends Component {
                 content: (item) => <td>{item}</td> 
             },
             {
-                label: "Rating",
-                path: "rating",
-                content: (item) => <td><Rating isRated={item} /> </td>,
+                label: "Your Rating",
+                path: "love",
+                content: (item) => <td><Love isRated={item} /> </td>,
             },
         ];
         return (
