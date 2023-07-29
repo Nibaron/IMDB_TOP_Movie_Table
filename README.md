@@ -1,5 +1,5 @@
 # IMDB TOP MOVIE TABLE
-<image src="/images/location.jpg">
+<image src="/HomePage.png">
 
 # REQUIREMENTS
 * First clone the Repo using `git clone https://github.com/Nibaron/IMDB_TOP_Movie_Table.git`
