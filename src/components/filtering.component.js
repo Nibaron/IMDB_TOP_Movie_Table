@@ -7,9 +7,11 @@ const Filtering = ({items , activeItem, onFilterClick}) => {
                         return (
                             <li
                                 onClick={() => onFilterClick(item)}
-                                
-                                className ={ activeItem === item ? 'list-group-item active' : 'list-group-item'}
-                                
+                                className={
+                                    activeItem === item
+                                        ? "list-group-item active"
+                                        : "list-group-item"
+                                }
                             >
                                 {item}
                             </li>

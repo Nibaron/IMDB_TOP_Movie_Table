@@ -3,6 +3,7 @@ import Navbar from './components/navbar.component';
 import Movies from './components/movies.component';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.min.css';
+import Footer from './components/footer.component';
 
 class App extends Component {
   state = {  } 
@@ -12,6 +13,7 @@ class App extends Component {
       <Navbar />
       <hr/>
       <Movies />
+      <Footer/>
       </>
     );
   }
